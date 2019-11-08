@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height:100%;
+   }
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: "Arial", sans-serif;
+    font-size: small;
+    background: #fff;
+}
+
+div#container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#container {
+    min-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    margin: 20px;
+    text-align: right;
+    font-size: 1em;
+}
+
+.navbar a {
+    padding: 10px;
+    color: #404040;    
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar button {
+    background-color: #4584F1;
+    color: white;
+    height: 32px;
+    width: 70px;
+    box-shadow: none;
+    border-width: 0;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.navbar button:active {
+    background-color: #4584F1;
+}
+  
+.navbar button:focus {
+    background-color: #3667B9;
+    outline: none;
+}
+  
+.row { 
+    text-align: center;
+    flex: 70%;
+    width: 100%;
+    padding: 20px;
+
+}
+.logo{
+   
+    display: inline-block;  
+    padding-top: 109px;
+}
+
+img {
+    height: 92px;
+    width: 272px;
+}
+
+    
+.search {
+    text-align: center;
+  }
+  
+input {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png") no-repeat right;
+    background-size: 15px;
+    background-position: right 10px center;
+    margin: 29px auto;
+    height: 40px;
+    width: 525px;
+    border-color: #DDD;
+    border-width: thin;
+    border-style: solid;
+    padding: 0 50px 0 10px;
+    font-size: 1.2em;
+}
+  
+input:hover {
+    border-color: #BBB;
+}
+  
+input:focus {
+    outline: none;
+    border-color: royalblue;
+}
+  
+input:active {
+    border-color: royalblue;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    opacity: .9;
+    font-size: 14px;
+    background-color: #EEE;
+    height: 36px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #EEE;
+    color: #666;
+    margin: 0 4px 0 4px;
+    padding: 0 20px 0 20px;
+    border-radius: 2px;
+}
+  
+.buttons button:hover {
+    color: black;
+    background: rgba(233, 233, 233, .6);
+    border-style: solid;
+    border-width: .1;
+    border-color: #AAA;
+    color: black;
+    outline: none;
+    box-shadow: .1px .1px 5px #CCC;
+}
+  
+.buttons button:focus,
+button:active {
+    outline: none;
+}
+  
+.buttons button:active {
+    border-color: royalblue;
+}
+
+.message {
+    text-align: center;
+    margin: 20px 4px 0 4px;
+    padding: 0 20px 0 20px;
+    color:  #404040;    
+}
+
+.message a {
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #EEE;
+    margin-left: -10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 10px 13px 10px;
+}
+  
+.footer .left {
+    display: block;
+    float: left;
+}
+  
+.footer .right {
+    display: block;
+    float: right;
+    position: relative;
+}
+.footer a {
+    padding: 10px;
+    color: #666;   
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+  
+
+
+
